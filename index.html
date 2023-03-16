@@ -28,7 +28,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="#navbarNav">
-                    <ul class="navbar-nav-custom navbar-nav nav-fill w-75">
+                    <ul class="navbar-nav-custom navbar-nav nav-fill w-100 d-lg-flex align-items-center">
 
                         <li class="nav-item-custom nav-item">
                             <a class="nav-link-active-custom nav-link" aria-current="page" href="#">Home</a>
@@ -61,6 +61,18 @@
                             <a class="nav-link-custom nav-link" href="#">Contact Us</a>
                         </li>
 
+                        <li class="nav-item">
+                            <i class="social-icon fa-brands fa-facebook"></i>
+                        </li>
+
+                        <li class="nav-item">
+                            <i class="social-icon fa-brands fa-instagram"></i>
+                        </li>
+
+                        <li class="nav-item">
+                            <i class="social-icon fa-solid fa-envelope"></i>
+                        </li>
+
                     </ul>
                 </div>
                 <div class="signup-button-div">
@@ -91,19 +103,21 @@
 
         </section>
 
-        <!-- About-->
+        <!-- About -->
         <section id="about">
             <div class="about-div container-fluid row align-items-center">
 
-                <div class="about-header-div col-lg-6">
-                    <h2 class="about-header">Dedicated towards building a stronger mind, a tougher body, and a bigger heart.</h2>
-                </div>
                 <div class="about-text-div col-lg-6">
+                    <h2 class="about-header">Dedicated towards building a stronger mind, a tougher body, and a bigger heart.</h2>
                     <p class="about-text">
                         At Tactics Martial Arts, we strive to create an environment based on <span class="key-word">personal growth</span>, <span class="key-word">kindness</span>, and <span class="key-word">respect</span>.
                         We teach both <span class="key-word">theory</span> and <span class="key-word">practical</span> martial arts methods to better equip you for any danger you might encounter.
                         Ultimately, we strive to improve the lives of many people through learning the art of <span class="key-word">self-defense</span>, and create a <span class="key-word">stronger</span>, <span class="key-word">smarter</span>, and <span class="key-word">safer</span> community.
                     </p>
+                </div>
+
+                <div class="about-img-div col-lg-6">
+                    <img class="img-fluid" src="images/general-img-4.jpg" alt="general-img">
                 </div>
 
             </div>
@@ -161,28 +175,29 @@
         <!-- Photos -->
         <section id="photos">
 
-            <h2>Photos</h2>
-
-            <div id="photoCarousel" class="carousel slide" data-bs-ride="false" data-bs-pause="hover">
-                <div class="carousel-inner">
-                  <div class="carousel-div carousel-item active">
-                    <img class="carousel-img img-fluid w-50" src="images/general-img-1.jpg" alt="general-image">
-                  </div>
-                  <div class="carousel-div carousel-item">
-                    <img class="carousel-img img-fluid w-50" src="images/general-img-2.jpg" alt="general-image">
-                  </div>
-                  <div class="carousel-div carousel-item">
-                    <img class="carousel-img img-fluid w-50" src="images/general-img-3.jpg" alt="general-image">
-                  </div>
+            <div class="photos-div">
+                <h2 class="photos-header">Photos</h2>
+                <div id="photoCarousel" class="carousel slide" data-bs-ride="false" data-bs-pause="hover">
+                    <div class="carousel-inner">
+                      <div class="carousel-div carousel-item active">
+                        <img class="carousel-img img-fluid w-50" src="images/general-img-1.jpg" alt="general-image">
+                      </div>
+                      <div class="carousel-div carousel-item">
+                        <img class="carousel-img img-fluid w-50" src="images/general-img-2.jpg" alt="general-image">
+                      </div>
+                      <div class="carousel-div carousel-item">
+                        <img class="carousel-img img-fluid w-50" src="images/general-img-3.jpg" alt="general-image">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
             </div>
 
         </section>
@@ -194,21 +209,33 @@
 
         <!-- Call to Action -->
         <section id="cta">
-            <h2 class="cta-header">Conquer your fears and find your strength today.</h2>
-            <button class="signup-btn btn btn-light btn-md">Sign up for a class today!</button>
+            <div class="cta-div container-fluid">
+                <h2 class="cta-header">Conquer your fears and find your strength today.</h2>
+                <button class="signup-btn btn btn-light btn-lg">Sign up for a class today!</button>
+            </div>
         </section>
 
     </main>
 
     <footer>
-        <p>Tactics Martial Arts</p>
-        <p>1315 Hempstead Turnpike</p>
-        <p>Elmont, Ny 11003</p>
-
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-solid fa-envelope"></i>
-
+        <div class="footer-div container-fluid row">
+            <div class="footer-img-div col-lg-4">
+                <img class="img-fluid" src="images/location-img.jpg" alt="location-image">
+            </div>
+            <div class="address-div col-lg-3">
+                <p>Tactics Martial Arts</p>
+                <p>1315 Hempstead Turnpike</p>
+                <p>Elmont, NY 11003</p>
+            </div>
+            <div class="page-links-div col-lg-4">
+                <a class="page-link" href="#title">Home</a>
+                <a class="page-link" href="#about">About Us</a>
+                <a class="page-link" href="#wwt">What We Teach</a>
+                <a class="page-link" href="#photos">Photos</a>
+                <a class="page-link" href="#testimonials">Testimonials</a>
+                <a class="page-link" href="#cta">Sign Up</a>
+            </div>
+        </div>
 
     </footer>
 
