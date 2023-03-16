@@ -1,0 +1,167 @@
+/* ------------------------------- Landing Page ------------------------------- */
+
+/* Elements */
+
+body {
+    margin: 0;
+}
+
+/* Navbar */
+
+.navbar-custom {
+    background-color: #06283D;
+    padding: 1%;
+}
+
+.navbar-brand-custom {
+    color: #FFFF;
+    font-weight: 600;
+}
+
+.navbar-brand-custom:hover, .navbar-brand-custom:active, .navbar-brand-custom:focus {
+    color: #BAD7E9;
+}
+
+.navbar-div {
+    margin: none;
+}
+
+.navbar-nav-custom {
+    color: #FFFF;
+}
+
+.nav-link-custom {
+    color: #E9F8F9;
+}
+
+.nav-link-custom:hover, .nav-link-custom:active, .nav-link-custom:focus {
+    color: #47B5FF
+}
+
+.nav-link-active-custom {
+    color: #47B5FF;
+}
+
+.nav-link-active-custom:hover, .nav-link-active-custom:active, .nav-link-active-custom:focus {
+    color: #E9F8F9;
+}
+
+.signup-btn {
+    background-color: #1363DF;
+    border-color: #1363DF;
+    color: #E9F8F9;
+}
+
+.signup-btn:hover, .signup-btn:active, .signup-btn:focus {
+    background-color: #E9F8F9;
+    border-color: #E9F8F9;
+    color: #1363DF;
+}
+
+/* Title */
+
+.title-div {
+    background-color: #BDCDD6;
+    color: #06283D;
+    padding: 5% 2% 10%;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 2;
+}
+
+.title-text {
+    color: #2E3840;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.title-img-div {
+    text-align: center;
+}
+
+/* About */
+
+#about {
+    background-color: #06283D;
+    color: #DFF6FF;
+}
+
+.about-div {
+    padding: 10% 4%;
+}
+
+.about-header {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.about-text-div {
+    padding: 1% 3%
+}
+
+.about-text {
+    font-size: 1.25rem;
+}
+
+.key-word {
+    color: #FFE7CC;
+    font-weight: 900;
+}
+
+
+/* What We Teach */
+
+#wwt {
+    background-color: #BDCDD6;
+}
+
+.wwt-header {
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding: 3% 0;
+    text-align: center;
+}
+
+.class-div-dark {
+    background-color: #06283D;
+    color: #BDCDD6;
+}
+
+.class-div-light {
+    background-color: #BDCDD6;
+}
+
+.class-div-dark, .class-div-light {
+    padding: 2% 3%;
+}
+
+.class-text-div {
+    padding: 3% 5%;
+}
+
+.class-text-header {
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 2;
+}
+
+.class-text {
+    font-size: 1.2rem;
+}
+
+.class-img-div {
+    text-align: center;
+}
+
+/* Photos */
+
+.carousel-div {
+    text-align: center;
+}
+
+.carousel-img {
+    max-height: 80%;
+}
