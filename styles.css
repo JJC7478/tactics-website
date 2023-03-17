@@ -3,6 +3,7 @@
 /* Elements */
 
 body {
+    font-family: 'Blinker', sans-serif;
     margin: 0;
 }
 
@@ -14,12 +15,13 @@ body {
 }
 
 .navbar-brand-custom {
-    color: #FFFF;
+    color: #E9F8F9;
     font-weight: 600;
+    font-size: 1.4rem;
 }
 
 .navbar-brand-custom:hover, .navbar-brand-custom:active, .navbar-brand-custom:focus {
-    color: #BAD7E9;
+    color: #47B5FF;
 }
 
 .navbar-div {
@@ -32,6 +34,7 @@ body {
 
 .nav-link-custom {
     color: #E9F8F9;
+    font-size: 1.2rem;
 }
 
 .nav-link-custom:hover, .nav-link-custom:active, .nav-link-custom:focus {
@@ -40,6 +43,7 @@ body {
 
 .nav-link-active-custom {
     color: #47B5FF;
+    font-size: 1.2rem;
 }
 
 .nav-link-active-custom:hover, .nav-link-active-custom:active, .nav-link-active-custom:focus {
@@ -47,6 +51,7 @@ body {
 }
 
 .nav-item {
+    margin: 10px;
     text-align: center;
 }
 
@@ -54,7 +59,6 @@ body {
     background-color: #1363DF;
     border-color: #1363DF;
     color: #E9F8F9;
-    text-align: center;
 }
 
 .signup-btn:hover, .signup-btn:active, .signup-btn:focus {
@@ -65,6 +69,7 @@ body {
 
 .social-icon {
     font-size: 2rem;
+    margin: 0 5px;
 }
 
 .social-icon:hover, .social-icon:active, .social-icon:focus {
@@ -203,7 +208,7 @@ body {
 
 .carousel-img {
     width: 100%;
-    height: 300px;
+    height: 100%;
     object-fit: contain;
     object-position: bottom;
     margin: auto;
@@ -251,4 +256,8 @@ body {
 .page-link:hover, .page-link:active, .page-link:focus {
     color: #47B5FF;
     text-decoration: underline;
+}
+
+.footer-img-div {
+    margin-bottom: 5%;
 }
