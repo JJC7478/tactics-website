@@ -204,13 +204,10 @@ body {
 
 .carousel-div {
     text-align: center;
+    padding: 0 7%;
 }
 
 .carousel-img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: bottom;
     margin: auto;
 }
 
