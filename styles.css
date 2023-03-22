@@ -260,5 +260,40 @@ body {
 }
 
 .footer-img-div {
-    padding-bottom: 5%;
+    margin-bottom: 3%;
 }
+
+/* -------------------------------------------------------------------------- */
+
+/* ---------------------------------- FAQ ----------------------------------- */
+
+.faq-body {
+    background-color: #BDCDD6;
+    color: #06283D;
+    margin: 0;
+}
+.faq-div {
+    padding: 5% 0;
+}
+
+.faq-header {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.q-a-div {
+    padding: 2% 5%;
+}
+
+.question {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.answer {
+    font-size: 1.5rem;
+    color: #2E3840;
+}
+
+/* -------------------------------------------------------------------------- */
