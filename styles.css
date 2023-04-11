@@ -11,13 +11,13 @@ body {
 
 .navbar-custom {
     background-color: #06283D;
-    padding: 1%;
+    padding: 0.5% 0 0.5%;
 }
 
 .navbar-brand-custom {
     color: #E9F8F9;
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 .navbar-brand-custom:hover, .navbar-brand-custom:active, .navbar-brand-custom:focus {
@@ -59,6 +59,7 @@ body {
     background-color: #1363DF;
     border-color: #1363DF;
     color: #E9F8F9;
+    font-size: 1rem;
 }
 
 .signup-btn:hover, .signup-btn:active, .signup-btn:focus {
@@ -68,7 +69,7 @@ body {
 }
 
 .social-icon {
-    font-size: 2rem;
+    font-size: 2.25rem;
     margin: 0 5px;
 }
 
@@ -89,14 +90,14 @@ body {
 }
 
 .title {
-    font-size: 3.5rem;
+    font-size: 4.25rem;
     font-weight: 900;
     line-height: 2;
 }
 
 .title-text {
     color: #2E3840;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
@@ -116,7 +117,7 @@ body {
 }
 
 .about-header {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 900;
     padding-bottom: 3%;
 }
@@ -143,7 +144,7 @@ body {
 }
 
 .wwt-header {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 900;
     padding: 5% 0 3%;
     text-align: center;
@@ -159,7 +160,7 @@ body {
 }
 
 .class-div-dark, .class-div-light {
-    padding: 2% 3%;
+    padding: 5% 3%;
 }
 
 .class-text-div {
@@ -167,7 +168,7 @@ body {
 }
 
 .class-text-header {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 900;
     line-height: 2;
 }
@@ -198,7 +199,7 @@ body {
 .photos-header {
     color: #BDCDD6;
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -222,7 +223,7 @@ body {
 
 .cta-header {
     line-height: 2;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 900;
 }
 
@@ -235,7 +236,16 @@ body {
 
 .footer-div {
     margin: 0;
-    padding: 7% 5%;
+    padding: 2%;
+}
+
+.footer-brand {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.address-text {
+    font-size: 1.25rem;
 }
 
 .address-div {
@@ -260,10 +270,14 @@ body {
 }
 
 .footer-img-div {
-    margin-bottom: 3%;
+    padding: 1%;
 }
 
 /* -------------------------------------------------------------------------- */
+
+/* ---------------------------------- Pricing ----------------------------------- */
+
+/* ------------------------------------------------------------------------------ */
 
 /* ---------------------------------- FAQ ----------------------------------- */
 

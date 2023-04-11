@@ -40,7 +40,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav-custom navbar-nav nav-fill d-lg-flex align-items-center mx-auto">
+                    <ul class="navbar-nav-custom navbar-nav nav-fill d-lg-flex align-items-center ms-auto">
 
                         <li class="nav-item-custom nav-item">
                             <a class="nav-link-active-custom nav-link" aria-current="page" href="index.html">Home</a>
@@ -62,7 +62,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link-custom nav-link" href="#">Pricing</a>
+                            <a class="nav-link-custom nav-link" href="pricing.html">Pricing</a>
                         </li>
 
                         <li class="nav-item">
@@ -73,16 +73,17 @@
                             <a class="nav-link-custom nav-link" href="#">Contact Us</a>
                         </li>
 
+                    </ul>
+
+                    <ul class="navbar-nav-custom navbar-nav d-lg-flex align-items-center ms-auto">
                         <li class="nav-item">
                             <i class="social-icon fa-brands fa-facebook"></i>
                             <i class="social-icon fa-brands fa-instagram"></i>
                             <i class="social-icon fa-solid fa-envelope"></i>
                         </li>
-
                         <li class="nav-item">
                             <button class="signup-btn btn btn-light btn-md">Sign up for a class today!</button>
                         </li>
-
                     </ul>
                 </div>
             </div>
@@ -185,15 +186,20 @@
             <div class="photos-div">
                 <h2 class="photos-header">Photos</h2>
                 <div id="photoCarousel" class="carousel slide" data-bs-ride="false" data-bs-pause="hover">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Photo 1"></button>
+                        <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="1" aria-label="Photo 2"></button>
+                        <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="2" aria-label="Photo 3"></button>
+                      </div>
                     <div class="carousel-inner">
                       <div class="carousel-div carousel-item active">
-                        <img class="carousel-img img-fluid w-100" src="images/general-img-1.jpg" alt="general-image">
+                        <img class="carousel-img img-fluid w-75" src="images/general-img-1.jpg" alt="general-image">
                       </div>
                       <div class="carousel-div carousel-item">
-                        <img class="carousel-img img-fluid w-100" src="images/general-img-2.jpg" alt="general-image">
+                        <img class="carousel-img img-fluid w-75" src="images/general-img-2.jpg" alt="general-image">
                       </div>
                       <div class="carousel-div carousel-item">
-                        <img class="carousel-img img-fluid w-100" src="images/general-img-3.jpg" alt="general-image">
+                        <img class="carousel-img img-fluid w-75" src="images/general-img-3.jpg" alt="general-image">
                       </div>
                     </div>
                     <button class="carousel-button carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
@@ -230,13 +236,13 @@
                 <div class="footer-img-div col-lg-4">
                     <img class="img-fluid" src="images/location-img.jpg" alt="location-image">
                 </div>
-                <div class="address-div col-lg-3 col-sm-6">
-                    <p>Tactics Martial Arts</p>
-                    <p>1315 Hempstead Turnpike</p>
-                    <p>Elmont, NY 11003</p>
+                <div class="address-div col-lg-3 col-sm-6 align-items-center">
+                    <h2 class="footer-brand">Tactics Martial Arts</h2>
+                    <p class="address-text">1315 Hempstead Turnpike, Elmont, NY 11003</p>
+                    <hr>
                     <p>Copyright 2015</p>
                 </div>
-                <div class="page-links-div col-lg-4 col-sm-6">
+                <div class="page-links-div col-lg-4 col-sm-6 align-items-center">
                     <a class="page-link" href="#title">Home</a>
                     <a class="page-link" href="#about">About Us</a>
                     <a class="page-link" href="#wwt">What We Teach</a>
