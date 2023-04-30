@@ -277,6 +277,11 @@ body {
 
 /* ---------------------------------- Pricing ----------------------------------- */
 
+.pricing-body {
+    margin: 0;
+    padding: 0;
+}
+
 #pricing {
     background-color: #06283D;
     color: #06283D;
