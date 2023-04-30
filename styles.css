@@ -302,6 +302,10 @@ body {
     .equipment-card-div {
         padding: 2%;
     }
+
+    .special-offer-card {
+        width: 100%;
+    }
 }
 
 /* Special Offer */
@@ -311,7 +315,7 @@ body {
 }
 
 .special-offer-card {
-    width: 35rem;
+    width: 80%;
     margin: auto;
 
 }
