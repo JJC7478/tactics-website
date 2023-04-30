@@ -277,6 +277,159 @@ body {
 
 /* ---------------------------------- Pricing ----------------------------------- */
 
+#pricing {
+    background-color: #06283D;
+    color: #06283D;
+    text-align: center;
+}
+
+.pricing-div{
+    padding: 3% 0;
+}
+
+.pricing-header{
+    color: #DFF6FF;
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+@media (max-width: 769px) {
+    .main-program-card-div {
+        padding: 2% 0;
+    }
+
+    .equipment-card-div {
+        padding: 2%;
+    }
+}
+
+/* Special Offer */
+
+.special-offer-div {
+    padding: 2% 3%
+}
+
+.special-offer-card {
+    width: 35rem;
+    margin: auto;
+
+}
+
+.special-offer-header {
+    color: #D21312;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.special-offer-text {
+    font-size: 1.5rem;
+}
+
+.special-offer-span {
+    text-decoration: underline;
+}
+
+.special-offer-footer {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Main Programs */
+
+.main-programs {
+    padding: 2% 3%;
+}
+
+.main-program-header {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.fma-program-header {
+    color:#1363DF;
+}
+
+.kma-program-header {
+    color: #37306B;
+}
+
+.combined-program-header {
+    color: #00ABB3;
+}
+
+.main-program-text {
+    font-size: 1.2rem;
+}
+
+/* Equipment + Workshops + Private Lessons */
+
+.equipment-and-workshops {
+    padding: 2% 3%;
+}
+
+.equipment-header, .workshop-header {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.workshop-header {
+    color: #F97B22;
+}
+
+.equipment-header {
+    color: #454545;
+}
+
+.equipment-text, .workshop-text {
+    font-size: 1.2rem;
+}
+
+.equipment-footer {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.private-lesson-card-div {
+    padding-top: 10.5%;
+}
+
+.private-lesson-card {
+    text-align: center;
+}
+
+.private-lesson-header {
+    color: #E7B10A;
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+.private-lesson-text {
+    font-size: 1.5rem;
+}
+
+.private-lesson-footer {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Blurb */
+
+.pricing-blurb-div {
+    background-color: #BDCDD6;
+    color: #06283D;
+    font-weight: 600;
+    padding: 5%;
+    text-align: center;
+}
+
+.pricing-blurb-text {
+    font-size: 2rem;
+}
+
+.pricing-blurb-span {
+    color: #1363DF;
+}
 /* ------------------------------------------------------------------------------ */
 
 /* ---------------------------------- FAQ ----------------------------------- */
@@ -287,7 +440,7 @@ body {
     margin: 0;
 }
 .faq-div {
-    padding: 5% 0;
+    padding: 3% 0;
 }
 
 .faq-header {
