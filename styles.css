@@ -278,8 +278,7 @@ body {
 /* ---------------------------------- Pricing ----------------------------------- */
 
 .pricing-body {
-    margin: 0;
-    padding: 0;
+    margin: none;
 }
 
 #pricing {
@@ -299,24 +298,10 @@ body {
     text-align: center;
 }
 
-@media (max-width: 769px) {
-    .main-program-card-div {
-        padding: 2% 0;
-    }
-
-    .equipment-card-div {
-        padding: 2%;
-    }
-
-    .special-offer-card {
-        width: 100%;
-    }
-}
-
 /* Special Offer */
 
 .special-offer-div {
-    padding: 2% 3%
+    padding: 2% 3%;
 }
 
 .special-offer-card {
@@ -347,6 +332,7 @@ body {
 /* Main Programs */
 
 .main-programs {
+    margin: 0;
     padding: 2% 3%;
 }
 
@@ -374,6 +360,7 @@ body {
 /* Equipment + Workshops + Private Lessons */
 
 .equipment-and-workshops {
+    margin: 0;
     padding: 2% 3%;
 }
 
@@ -382,8 +369,16 @@ body {
     font-weight: 900;
 }
 
+.workshop-private-col {
+    padding-right: 2%;
+}
+
 .workshop-header {
     color: #F97B22;
+}
+
+.equipment-card-div {
+    padding-right: 1%;
 }
 
 .equipment-header {
@@ -397,10 +392,6 @@ body {
 .equipment-footer {
     font-size: 1.2rem;
     font-style: italic;
-}
-
-.private-lesson-card-div {
-    padding-top: 10.5%;
 }
 
 .private-lesson-card {
@@ -438,6 +429,24 @@ body {
 
 .pricing-blurb-span {
     color: #1363DF;
+}
+
+@media (max-width: 769px) {
+    .main-program-card-div {
+        padding: 2% 0;
+    }
+
+    .special-offer-card {
+        width: 100%;
+    }
+
+    .workshop-card-div, .private-lesson-card-div, .equipment-card-div {
+        padding: 2% 0;
+    }
+
+    .workshop-private-col {
+        padding: 0;
+    }
 }
 /* ------------------------------------------------------------------------------ */
 
