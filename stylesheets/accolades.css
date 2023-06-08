@@ -1,0 +1,33 @@
+a {
+    color: #06283D;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.accolades__list {
+    font-size: 1.25rem;
+}
+
+.accolades__div {
+    background-color: #BDCDD6;
+    color: #06283D;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.accolades__row {
+    padding: 3% 3%;
+}

@@ -1,6 +1,9 @@
 /* ------------------------------- Landing Page ------------------------------- */
 
 /* Elements */
+a {
+    color: #06283D;
+}
 
 body {
     font-family: 'Blinker', sans-serif;

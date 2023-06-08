@@ -1,0 +1,87 @@
+.schedule-body {
+    background-color: #06283D;
+    color: #DFF6FF;
+    margin: 0;
+}
+
+.breakdown__div {
+    padding: 3% 0;
+}
+
+.schedule-breakdown {
+    padding: 2% 3%;
+}
+
+.schedule-h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.schedule-h2__a, .schedule-h2__k {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.schedule-h2__a {
+    color: #47B5FF;
+}
+
+.schedule-h2__k {
+    color: #E7B10A;
+}
+
+.schedule-h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.schedule__li {
+    font-size: 1.5rem;
+}
+
+.calendar-div {
+    background-color: #BDCDD6;
+    color: #06283D;
+    padding: 3%;
+    text-align: center;
+}
+
+.schedule-calendar {
+    margin: 0 auto;
+    font-size: 1.25rem;
+}
+
+.calendar__cell {
+    padding: 1%;
+}
+
+.calendar__class-list {
+    list-style: none;
+    padding: 0;
+}
+
+.calendar__class-list-element--kids {
+    background-color: #E7B10A;
+    color: #DFF6FF;
+    border: 2px solid #E7B10A;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2%;
+}
+
+.calendar__class-list-element--adults {
+    background-color: #1363DF;
+    color: #DFF6FF;
+    border: 2px solid #1363DF;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2%;
+}
+
+@media screen and (max-width: 500px) {
+    .schedule-calendar {
+        font-size: 80%;
+    }
+}

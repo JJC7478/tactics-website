@@ -1,0 +1,46 @@
+.about-us-h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.about-us-h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.about-us-h3 {
+    font-size: 2rem;
+}
+
+.about-us-text {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.about-us-div {
+    background-color: #BDCDD6;
+    color: #06283D;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.about-page-div {
+    padding: 5% 3%;
+}
+
+.about-page-div-center {
+    text-align: center;
+}
+
+.benefits-div {
+    padding: 0 3%;
+}
+
+.benefits-h2 {
+    line-height: 2;
+}
+
+.ben-col {
+    text-align: justify;
+}
