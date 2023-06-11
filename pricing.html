@@ -28,53 +28,73 @@
         <!-- Navbar -->
         <nav class="navbar-custom navbar sticky-top navbar-expand-lg">
             <div class="navbar-div container-fluid">
+
                 <a class="navbar-brand-custom navbar-brand" href="index.html">
                     Tactics Martial Arts
                 </a>
+
                 <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav-custom navbar-nav nav-fill d-lg-flex align-items-center mx-auto">
+                    <ul class="navbar-nav-custom navbar-nav nav-fill d-lg-flex align-items-center ms-auto">
+
                         <li class="nav-item-custom nav-item">
                             <a class="nav-link-custom nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link-custom nav-link" href="#">About Us</a>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link-custom nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="about-us.html">Who We Are</a></li>
+                                <li><a class="dropdown-item" href="#">Photos and Videos</a></li>
+                                <li><a class="dropdown-item" href="accolades.html">Accolades</a></li>
+                                <li><a class="dropdown-item" href="#">Resources</a></li>
+                            </ul>
                         </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link-custom nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Classes
+                              Classes
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">FMA</a></li>
-                                <li><a class="dropdown-item" href="#">KMA</a></li>
-                                <li><a class="dropdown-item" href="#">Kyusho</a></li>
-                                <li><a class="dropdown-item" href="#">Kickboxing and Self-Defense</a></li>
-                                <li><a class="dropdown-item" href="#">Workshops</a></li>
-                                <li><a class="dropdown-item" href="#">Schedule</a></li>
-                              </ul>
+                              <li><a class="dropdown-item" href="classes/schedule.html">Schedule</a></li>
+                              <li><a class="dropdown-item" href="classes/fma.html">FMA</a></li>
+                              <li><a class="dropdown-item" href="classes/kma.html">KMA</a></li>
+                              <li><a class="dropdown-item" href="classes/kyusho.html">Kyusho</a></li>
+                              <li><a class="dropdown-item" href="classes/kb-sd.html">Kickboxing and Self-Defense</a></li>
+                              <li><a class="dropdown-item" href="classes/workshops.html">Workshops</a></li>
+                            </ul>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link-active-custom nav-link" href="#">Pricing</a>
+                            <a class="nav-link-active-custom nav-link" href="pricing.html">Pricing</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link-custom nav-link" href="faq.html">FAQ</a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link-custom nav-link" href="#">Contact Us</a>
+                            <a class="nav-link-custom nav-link" href="contact-us.html">Contact Us</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="navbar-nav-custom navbar-nav d-lg-flex align-items-center ms-auto">
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/tgTACTICS/" target="_blank"><i class="social-icon fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/tomgallotactics/?hl=en" target="_blank"><i class="social-icon fa-brands fa-instagram"></i></a>
+                            <a href="mailto:tomgallotactics@gmail.com" target="_blank"><i class="social-icon fa-solid fa-envelope"></i></a>
                         </li>
                         <li class="nav-item">
-                            <i class="social-icon fa-brands fa-facebook"></i>
-                            <i class="social-icon fa-brands fa-instagram"></i>
-                            <i class="social-icon fa-solid fa-envelope"></i>
-                        </li>
-                        <li class="nav-item">
-                            <button class="signup-btn btn btn-light btn-md">Sign up for a class today!</button>
+                            <button onclick="window.location.href='sign-up.html';" class="signup-btn btn btn-light btn-md">Sign up for a class today!</button>
                         </li>
                     </ul>
                 </div>
             </div>
+
         </nav>
         <!-- Pricing -->
         <section id="pricing">
@@ -208,8 +228,9 @@
                     <hr>
                     <p>Copyright 2015</p>
                 </div>
-                <div class="page-links-div col-lg-4 col-sm-6 align-items-center">
-                    <a class="page-link" href="#">Pricing</a>
+                <div class="footer__quote-div col-lg-4 col-sm-6 align-self-center">
+                    <p>"The best fighter is someone who never has to fight because they control the situation"</p>
+                    <p>-Bruce Lee</p>
                 </div>
             </div>
         </section>

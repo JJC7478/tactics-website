@@ -68,7 +68,17 @@ body {
     color: #1363DF;
 }
 
+.sign-up__link {
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.sign-up__link:hover, .sign-up__link:active, .sign-up__link:focus {
+    color: #1363DF;
+}
+
 .social-icon {
+    color: #DFF6FF;
     font-size: 2.25rem;
     margin: 0 5px;
 }
@@ -77,8 +87,32 @@ body {
     color: #47B5FF;
 }
 
+.fa-instagram:hover {
+    color: #FEA1A1;
+}
+
+.fa-envelope:hover {
+    color: #BDCDD6;
+}
+
 .custom-toggler.navbar-toggler {
     background-color: #BDCDD6;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1260px){
+
+    .nav-item {
+        margin: 5px;
+    }
+
+    .social-icon {
+        display: none;
+    }
+
+    .signup-btn {
+        font-size: 0.85rem;
+    }
+
 }
 
 /* Title */
@@ -255,7 +289,8 @@ body {
     padding-left: 3%;
 }
 
-.page-links-div {
+.footer__quote-div {
+    font-size: 1.2rem;
     text-decoration: none;
     text-align: right;
 }

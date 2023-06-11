@@ -46,8 +46,14 @@
                             <a class="nav-link-active-custom nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link-custom nav-link" href="about-us.html">About Us</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link-custom nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="about-us.html">Who We Are</a></li>
+                                <li><a class="dropdown-item" href="#">Photos and Videos</a></li>
+                                <li><a class="dropdown-item" href="accolades.html">Accolades</a></li>
+                                <li><a class="dropdown-item" href="#">Resources</a></li>
+                            </ul>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -73,19 +79,19 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link-custom nav-link" href="#">Contact Us</a>
+                            <a class="nav-link-custom nav-link" href="contact-us.html">Contact Us</a>
                         </li>
 
                     </ul>
 
                     <ul class="navbar-nav-custom navbar-nav d-lg-flex align-items-center ms-auto">
                         <li class="nav-item">
-                            <i class="social-icon fa-brands fa-facebook"></i>
-                            <i class="social-icon fa-brands fa-instagram"></i>
-                            <i class="social-icon fa-solid fa-envelope"></i>
+                            <a href="https://www.facebook.com/tgTACTICS/" target="_blank"><i class="social-icon fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/tomgallotactics/?hl=en" target="_blank"><i class="social-icon fa-brands fa-instagram"></i></a>
+                            <a href="mailto:tomgallotactics@gmail.com" target="_blank"><i class="social-icon fa-solid fa-envelope"></i></a>
                         </li>
                         <li class="nav-item">
-                            <button class="signup-btn btn btn-light btn-md">Sign up for a class today!</button>
+                            <button onclick="window.location.href='sign-up.html';" class="signup-btn btn btn-light btn-md">Sign up for a class today!</button>
                         </li>
                     </ul>
                 </div>
@@ -101,7 +107,7 @@
 
                     <div class="title-text-div col-lg-6">
                         <h1 class="title">Learn. Train. Defend.</h1>
-                        <h3 class="title-text">Be prepared for any real-world situation.</h3>
+                        <h3 class="title-text">Be prepared for any situation.</h3>
                     </div>
 
                     <div class="title-img-div col-lg-6">
@@ -227,7 +233,7 @@
         <section id="cta">
             <div class="cta-div container-fluid">
                 <h2 class="cta-header">Conquer your fears and find your strength.</h2>
-                <button class="signup-btn btn btn-light btn-lg">Sign up for a class today!</button>
+                <button onclick="window.location.href='sign-up.html';" class="signup-btn btn btn-light btn-lg">Sign up for a class today!</button>
             </div>
         </section>
 
@@ -247,13 +253,9 @@
                     <hr>
                     <p>Copyright 2015</p>
                 </div>
-                <div class="page-links-div col-lg-4 col-sm-6 align-items-center">
-                    <a class="page-link" href="#title">Home</a>
-                    <a class="page-link" href="#about">About Us</a>
-                    <a class="page-link" href="#wwt">What We Teach</a>
-                    <a class="page-link" href="#photos">Photos</a>
-                    <a class="page-link" href="#testimonials">Testimonials</a>
-                    <a class="page-link" href="#cta">Sign Up</a>
+                <div class="footer__quote-div col-lg-4 col-sm-6 align-self-center">
+                    <p>"The best fighter is someone who never has to fight because they control the situation"</p>
+                    <p>-Bruce Lee</p>
                 </div>
             </div>
         </section>
