@@ -270,6 +270,10 @@ body {
     color: #BDCDD6;
 }
 
+.footer-img-div {
+    text-align: center;
+}
+
 .footer-div {
     margin: 0;
     padding: 2%;
