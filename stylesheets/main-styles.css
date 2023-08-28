@@ -181,7 +181,7 @@ body {
 .wwt-header {
     font-size: 3rem;
     font-weight: 900;
-    padding: 5% 0 3%;
+    padding: 5% 0 0;
     text-align: center;
 }
 
@@ -246,6 +246,7 @@ body {
 
 .carousel-img {
     margin: auto;
+    width: 85%;
 }
 
 /* Call to Action */
