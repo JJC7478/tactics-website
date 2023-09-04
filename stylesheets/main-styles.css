@@ -124,14 +124,14 @@ body {
 }
 
 .title {
-    font-size: 4.25rem;
+    font-size: calc(3rem + 0.6vw);
     font-weight: 900;
     line-height: 2;
 }
 
 .title-text {
     color: #2E3840;
-    font-size: 2.5rem;
+    font-size: calc(2.5rem + 0.6vw);
     font-weight: 600;
 }
 
@@ -151,7 +151,7 @@ body {
 }
 
 .about-header {
-    font-size: 3rem;
+    font-size: calc(2.5rem + 0.6vw);
     font-weight: 900;
     padding-bottom: 3%;
 }
@@ -161,8 +161,8 @@ body {
 }
 
 .about-text {
-    font-size: 1.25rem;
-    text-align: justify;
+    font-size: calc(1.2rem + 0.6vw);
+    text-align: left;
 }
 
 .key-word {
@@ -179,7 +179,7 @@ body {
 }
 
 .wwt-header {
-    font-size: 3rem;
+    font-size: calc(2.5rem + 0.6vw);
     font-weight: 900;
     padding: 5% 0 0;
     text-align: center;
@@ -200,17 +200,17 @@ body {
 
 .class-text-div {
     padding: 3% 5%;
-    text-align: justify;
+    text-align: left;
 }
 
 .class-text-header {
-    font-size: 2rem;
+    font-size: calc(2rem + 0.6vw);
     font-weight: 900;
     line-height: 2;
 }
 
 .class-text {
-    font-size: 1.2rem;
+    font-size: calc(1.2rem + 0.6vw);
 }
 
 .class-img-div {
@@ -235,7 +235,7 @@ body {
 .photos-header {
     color: #BDCDD6;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: calc(2.5rem + 0.6vw);
     text-align: center;
 }
 
@@ -246,7 +246,7 @@ body {
 
 .carousel-img {
     margin: auto;
-    width: 85%;
+    width: 100%;
 }
 
 /* Call to Action */
@@ -260,7 +260,7 @@ body {
 
 .cta-header {
     line-height: 2;
-    font-size: 3rem;
+    font-size: calc(2.5rem + 0.6vw);
     font-weight: 900;
 }
 
